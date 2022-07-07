@@ -6,6 +6,7 @@
 #include <ctype.h>
 
 typedef struct Personne{
+    int i;
     char nom[30];
     char numero[10];
 }Personne;
@@ -18,7 +19,7 @@ void ajout_personne();
 
 void affiche_contact();
 
-void Acquisition();
+int Acquisition();
 
 void ajoute();
 
